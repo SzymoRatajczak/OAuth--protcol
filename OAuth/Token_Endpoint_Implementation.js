@@ -13,7 +13,7 @@
 var AuthCode=require('../lib/model/AuthCodeModel');
 var Client=require('..lib/models/ClientModel');
 var Token=require('../lib/models/TokenModel');
-var RefreshToken=('../lib/models/RefreshToken');
+var RefreshToken=require('../lib/models/RefreshToken');
 
 
 router.post('/token',function(req,res,next)
