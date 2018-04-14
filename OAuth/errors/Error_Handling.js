@@ -71,7 +71,7 @@ function OAuthError(code,message,err)
 }
 
 util.inherits(OAuthError,Error);
-module.export=OAuthError;
+module.export=new OAuthError();
 
 
 //POST request doesn't have  access to the next parameter  so we must set up new handler
@@ -94,4 +94,4 @@ function handleError(err,res)
 
 
 	}
-	module.export=handleError;
+	module.export=new handleError();
