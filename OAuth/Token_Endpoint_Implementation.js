@@ -1,6 +1,6 @@
 //implementation of token endpoint- one of ends in whole relation 
 
-//it issues the access token in exechange for authorization code 
+//it gives the access token in exechange for authorization code 
 // in other words:  here is place where you as  a customer  can buy access token
 
 
@@ -8,7 +8,7 @@
 //Refresh token is responsible for generating access token 
 
 //Whole realation in other words: you-customer,  authorization code- money ,  token endpoint-shop
-//access token- product ,  refresh token-shopper
+//access token- product
  
 var AuthCode=require('../lib/model/AuthCodeModel');
 var Client=require('..lib/models/ClientModel');
