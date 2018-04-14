@@ -3,7 +3,7 @@
 var util=require('util');
 
 
-//this method is extensions of Error and it's supposed to be used error's handling mechanism (via using next ot throwing an error)
+//this method is extensions of Error and it's supposed to be used as error's handling mechanism (via using next ot throwing an error)
 //we extended built-in Error class in order to provide  more meaningful feedback to the client
 function OAuthError(code,message,err)
 {
