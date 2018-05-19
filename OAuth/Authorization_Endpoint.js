@@ -1,13 +1,13 @@
 //Authorization code is used with redirection-based authorization flow ,
-//when you are redirected to service provider in order to get access token 
+//when you are redirecting to service provider in order to get access token 
 //you need authorization code  (this relation is like: authorization code is like money, necessary to buy access token
-// and service provider's token endpoint is like  a shop where you can  make deal)
+// and service provider's token endpoint is like  a shop where you can  make a deal)
 
 //Authorization code requires two endpoints ( here: you and service provider  in other words: 
 // you - customer,  authorization code- money,  service provider- shopper)
 
 //following code assumes there is mongoose called client model
-// a client consists a ID,secret and a few more attributes in order to communicate with consumer
+// a client consists of: ID,secret and a few more attributes in order to communicate with consumer
 var uuid=require('node-uuid');
 var Client=require('../lib/models/ClientModel');
 var AuthCode=require('../lib/models/AuthCodeModel');
