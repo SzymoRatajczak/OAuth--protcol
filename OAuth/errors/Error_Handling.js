@@ -1,10 +1,10 @@
 
-//this utill module is used to inherit all Error methods and properties
+//this utill module inherits all Error's methods and properties
 var util=require('util');
 
 
-//this method is extensions of Error and it's supposed to be used as error's handling mechanism (via using next ot throwing an error)
-//we extended built-in Error class in order to provide  more meaningful feedback to the client
+//this method is extension of Error class and it's supposed to be used as error's handling mechanism 
+//I extended built-in Error class in order to provide  more meaningful feedback to the client
 function OAuthError(code,message,err)
 {
 	Error.call(this);
