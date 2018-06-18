@@ -18,7 +18,7 @@ var IdTokenModel=function()
 		
 		
 	});
-	return mongoose.model('IdToken',idTokenSchema);
+	return mongoose.model('IdTokenModel',idTokenSchema);
 	
 }
 
