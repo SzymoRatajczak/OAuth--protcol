@@ -88,6 +88,6 @@ var authorize=function(req,res,next)
 	});
 	
 };
-module.export=authorize;
+module.export=new authorize();
 
  
