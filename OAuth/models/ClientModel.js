@@ -22,7 +22,7 @@ var ClientModel=function()
 		
 	});
 	
-	return mongoose.model('client',clientScheme);
+	return mongoose.model('ClientModel',clientScheme);
 	
 };
 
